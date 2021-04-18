@@ -28,7 +28,14 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/andreas/skinet/Core/Core.csproj": {
+                "projectPath": "/home/andreas/skinet/Core/Core.csproj"
+              },
+              "/home/andreas/skinet/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/andreas/skinet/Infrastructure/Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

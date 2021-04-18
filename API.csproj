@@ -16,6 +16,29 @@
 
   <ItemGroup>
     <Compile Remove="Controllers\Products.cs" />
+    <Compile Remove="Core\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Core\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Core\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Core\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Core\obj\Core.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="Core\obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
