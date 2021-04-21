@@ -1,0 +1,146 @@
+[
+  {
+    "Name": "Angular Speedster Board 2000",
+    "Description": "Lorem mortiii",
+    "Price": 200,
+    "PictureUrl": "path/to/file",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Green Angular Board 3000",
+    "Description": "fsausanfnasfiubasgsaifj",
+    "Price": 150,
+    "PictureUrl": "path/to/file",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Core Dracu Lacu",
+    "Description": "aiufasfhasiofewiuewfw",
+    "Price": 180,
+    "PictureUrl": "path/to/file",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Net Core Super Board",
+    "Description": "ausfionnnfasafsff",
+    "Price": 300,
+    "PictureUrl": "path/to/file",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "React Board Super",
+    "Description": "fsaaaaaaaaaaa",
+    "Price": 250,
+    "PictureUrl": "path/to/file",
+    "ProductTypeId": 1,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Typescript Entry Board",
+    "Description": "fsaegawwisjsergsreg4t",
+    "Price": 120,
+    "PictureUrl": "path/to/file",
+    "ProductTypeId": 1,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Core Maroon hat",
+    "Description": "324wrigssdfefdwq324wsd",
+    "Price": 10,
+    "PictureUrl": "path/to/file",
+    "ProductTypeId": 2,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Grean React Woolen hat",
+    "Description": "3tgewsda432rewsd",
+    "Price": 8,
+    "PictureUrl": "path/to/file",
+    "ProductTypeId": 2,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Blue react wooeln HAT",
+    "Description": "agdsferatwr3qetawg",
+    "Price": 15,
+    "PictureUrl": "path/to/file",
+    "ProductTypeId": 2,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "BLue COde gloves",
+    "Description": "eagsdfgetashfdetrq3",
+    "Price": 18,
+    "PictureUrl": "path/to/file",
+    "ProductTypeId": 4,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Green code gloves",
+    "Description": "tqegwrhsdhrwteqrew",
+    "Price": 15,
+    "PictureUrl": "path/to/file",
+    "ProductTypeId": 4,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Purple React gloves",
+    "Description": "tweagrhsrwetqtwrs",
+    "Price": 16,
+    "PictureUrl": "path/to/file",
+    "ProductTypeId": 4,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Green REact gloves",
+    "Description": "tewrhsretrhs",
+    "Price": 14,
+    "PictureUrl": "path/to/file",
+    "ProductTypeId": 4,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "redis red boots",
+    "Description": "twrherwtewrhets",
+    "Price": 250,
+    "PictureUrl": "path/to/file",
+    "ProductTypeId": 3,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "core red boots",
+    "Description": "wtarhesthrwteqwrhest",
+    "Price": 189.99,
+    "PictureUrl": "path/to/file",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "core purple boots",
+    "Description": "twerhrwetwrhsets",
+    "Price": 199.99,
+    "PictureUrl": "path/to/file",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "angular purple bots",
+    "Description": "tewarshedhrwetrhest",
+    "Price": 150,
+    "PictureUrl": "path/to/file",
+    "ProductTypeId": 3,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "angular blue boots",
+    "Description": "rhestjshrtewre",
+    "Price": 180,
+    "PictureUrl": "path/to/file",
+    "ProductTypeId": 3,
+    "ProductBrandId": 1
+  }
+]
