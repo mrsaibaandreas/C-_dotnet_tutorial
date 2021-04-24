@@ -12,30 +12,36 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
-        private readonly IProductRepository _repo;
-        public ProductsController(IProductRepository repo)
+        private readonly IGenericRepository<Product> _productsRepo;
+        private readonly IGenericRepository<ProductBrand> _brandRepo;
+        private readonly IGenericRepository<ProductType> _typesRepo;
+
+        public ProductsController(IGenericRepository<Product> productsRepo,
+            IGenericRepository<ProductBrand> brandRepo, IGenericRepository<ProductType> typesRepo)
         {
-            _repo = repo;
+            _productsRepo = productsRepo;
+            _brandRepo = brandRepo;
+            _typesRepo = typesRepo;
         }
 
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetProducts()
         {
-            var products = await _repo.GetProductsAsync();
+            var products = await _productsRepo.GetAllAsync();
             return Ok(products);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            var product = await _repo.GetProductByIdAsync(id);
+            var product = await _productsRepo.GetByIdAsync(id);
             return Ok(product);
         }
 
         [HttpGet("brands")]
         public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetProductBrand()
         {
-            var productBrand = await _repo.GetProductBrandsAsync();
+            var productBrand = await _brandRepo.GetAllAsync();
             return Ok(productBrand);
         }
         
@@ -44,7 +50,7 @@ namespace API.Controllers
         public async Task<ActionResult<IReadOnlyList<ProductType>>> GetProductType()
         {
          //   var productTypes = await _repo.GetProductTypesAsync();
-            return Ok(await _repo.GetProductTypesAsync());
+            return Ok(await _typesRepo.GetAllAsync());
         }
         // GET
         // public IActionResult Index()
